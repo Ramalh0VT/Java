@@ -28,17 +28,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         />
-	
-	
+
     <ImageView
         android:id="@+id/imagemChape"
         android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:src="@drawable/logo_chape"
-        app:layout_constraintEnd_to_EndOf="parent"
-        app:layout_constraintStart_toStartOf="Parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imagemChape"
-
         />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/changer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@id/txtPrincipal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+    />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
