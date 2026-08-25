@@ -28,6 +28,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         />
+	
+	
+    <ImageView
+        android:id="@+id/imagemChape"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_chape"
+        app:layout_constraintEnd_to_EndOf="parent"
+        app:layout_constraintStart_toStartOf="Parent"
+        app:layout_constraintTop_toBottomOf="@id/imagemChape"
 
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
