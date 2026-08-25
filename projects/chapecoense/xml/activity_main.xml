@@ -9,25 +9,25 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/txtPrincipal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CHAPECOENSE"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.563"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.138" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/test"
+        android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BEST TEAM OF THE WORLD"
-
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="227dp" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPrincipal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
