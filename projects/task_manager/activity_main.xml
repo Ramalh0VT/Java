@@ -6,29 +6,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/tool_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        />
+        android:textAlignment="center"
+        app:title="Organize tasks"
+        tools:layout_editor_absoluteX="124dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/text_organize"
+        app:layout_constraintBottom_toBottomOf="@+id/tool_bar"
+        app:layout_constraintTop_toTopOf="parent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Organize your activities"
+        android:textAlignment="center"
         tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="141dp">
-    </TextView>
-    
+        tools:layout_editor_absoluteY="143dp"></TextView>
+
     <Button
         android:id="@+id/button_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add task"
-        
-        
-        ></Button>
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="427dp"></Button>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
